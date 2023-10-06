@@ -9,7 +9,8 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
   margin-top: 90px;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;}
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 
 .display {
   display: flex;
@@ -19,6 +20,7 @@
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
 }
 
 input[type="text"] {
@@ -26,12 +28,14 @@ input[type="text"] {
   border: none;
   outline: none;
   font-size: 20px;
+  
 }
 
 .result {
   font-size: 24px;
   font-weight: bold;
   color: #333;
+  padding-right: 90px;
 }
 
 .buttons {
@@ -39,6 +43,7 @@ input[type="text"] {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   margin-top: 20px;
+  border-radius: 10px;
 }
 
 button {
