@@ -8,7 +8,8 @@
   padding: 20px;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
-}
+  margin-top: 90px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;}
 
 .display {
   display: flex;

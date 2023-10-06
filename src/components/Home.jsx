@@ -2,25 +2,20 @@ import React, { useState } from 'react'
 
 export const Home = () => {
 
-      // State to store the input and result
   const [input, setInput] = useState('');
   const [result, setResult] = useState('');
 
-  // Function to handle button clicks
   const handleClick = (value) => {
     if (value === '=') {
       try {
-        // Evaluate the expression and set the result
         setResult(eval(input));
       } catch (error) {
         setResult('Error');
       }
     } else if (value === 'C') {
-      // Clear the input and result
       setInput('');
       setResult('');
     } else {
-      // Append the clicked value to the input
       setInput((prevInput) => prevInput + value);
     }
   };
